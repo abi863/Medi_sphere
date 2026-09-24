@@ -1,0 +1,30 @@
+# Node / Angular
+node_modules/
+dist/
+.angular/
+.cache/
+
+# Java / Maven
+target/
+*.class
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project secrets
+backend/**/src/main/resources/application.properties
+infrastructure/kubernetes/secret.yaml
